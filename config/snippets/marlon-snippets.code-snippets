@@ -1,0 +1,40 @@
+{
+
+"Print to console": {
+	"scope": "javascript,typescript, typescriptreact",
+	"prefix": "cl",
+	"body": ["console.log($1)"],
+	"description": "Log output to console"
+	},
+
+	"Query Selector": {
+		"scope": "javascript,typescript",
+		"prefix": "dqs",
+		"body": ["document.querySelector('$1')"],
+		"description": "Selects a class or id in Javascript"
+	},
+
+	// Statements
+
+	"if statement": {
+		"scope": "javascript, typescript",
+		"prefix": "ifs",
+		"body": ["if($1) {\n  ${2}\n};"],
+		"description": "Creates a new simple if statement"
+	},
+
+	"if/else statement": {
+		"scope": "javascript, typescript",
+		"prefix": "ife",
+		"body": "if($1) {\n  ${2}\n} else {\n  ${3}\n};",
+		"description": "Creates a new if/else statement"
+	},
+
+	"for count statement": {
+		"scope": "javascript, typescript",
+		"prefix": "foc",
+		"body": "for (const i = 0; i < 10; i++) {\n  $2\n};",
+		"description": "Creates a new for loop"
+	}
+}
+

@@ -1,0 +1,104 @@
+{
+	//  ==========GERAIS==========
+	"Print to console": {
+		"scope": "javascript, typescript",
+		"prefix": "cl",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+	},
+	"TODO comment": {
+		"prefix": "todo",
+		"body": [
+			"// TODO: ${1:descrição}"
+		],
+		"description": "Marca TODO"
+	},
+	"For of": {
+		"prefix": "forof",
+		"body": [
+			"for (const ${1:item} of ${2:array}) {",
+			"  ${3:// código}",
+			"}"
+		],
+		"description": "Loop for...of"
+	},
+	// ==========FUNÇÕES==========
+	"Arrow function": {
+		"prefix": "arw",
+		"body": [
+			"const ${1:nome} = (${2:args}) => {",
+			"  ${3:// corpo}",
+			"};"
+		],
+		"description": "Cria uma arrow function"
+	},
+	"Async function": {
+		"prefix": "async",
+		"body": [
+			"const ${1:nome} = async (${2:args}) => {",
+			"  ${3:// await algo}",
+			"};"
+		],
+		"description": "Função assíncrona"
+	},
+	"Named function": {
+		"prefix": "fnc",
+		"body": [
+			"function ${1:nome}(${2:args}) {",
+			"  ${3:// corpo}",
+			"}"
+		],
+		"description": "Função nomeada"
+	},
+	// ==========TYPESCRIPT==========
+	"Type alias": {
+		"prefix": "tp",
+		"body": [
+			"type ${1:NomeTipo} = {",
+			"  ${2:chave}: ${3:string};",
+			"};"
+		],
+		"description": "Cria um type"
+	},
+	"Interface": {
+		"prefix": "inter",
+		"body": [
+			"interface ${1:NomeInterface} {",
+			"  ${2:propriedade}: ${3:string};",
+			"}"
+		],
+		"description": "Cria uma interface"
+	},
+	"Enum": {
+		"prefix": "enum",
+		"body": [
+			"enum ${1:NomeEnum} {",
+			"  ${2:CHAVE} = '${3:valor}',",
+			"}"
+		],
+		"description": "Enum TypeScript"
+	},
+	// ==========REACT + TYPESCRIPT==========
+	"React useState": {
+		"prefix": "usestate",
+		"body": [
+			"const [${1:state}, set${2:State}] = useState<${3:tipo}>(${4:valorInicial});"
+		],
+		"description": "Hook useState com tipagem"
+	},
+	"React functional component (arrow)": {
+		"prefix": "rfc",
+		"body": [
+			"type ${1:Props} = {",
+			"  ${2:propriedade}?: ${3:string};",
+			"};",
+			"",
+			"export const ${4:Componente}: React.FC<${1:Props}> = ({ ${2:propriedade} }) => {",
+			"  return <div>${5:Conteúdo}</div>;",
+			"};"
+		],
+		"description": "Componente funcional com TypeScript (arrow function)"
+	}
+}

@@ -1,0 +1,72 @@
+{
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.profiles.linux": {
+    "zsh": {
+      "path": "/usr/bin/zsh"
+    }
+  },
+  "workbench.colorTheme": "One Dark Pro Night Flat",
+  "editor.fontFamily": "JetBrains Mono, monospace",
+  "editor.autoSurround": "brackets",
+  "editor.autoClosingBrackets": "always",
+  "editor.fontLigatures": true,
+  "editor.linkedEditing": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "window.commandCenter": false,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports.biome": "explicit",
+    "source.fixAll.biome": "explicit",
+    "source.removeUnusedImports": "explicit"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.renderSideBySide": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "editor.cursorStyle": "line-thin",
+  "editor.fontSize": 16,
+  "window.menuBarVisibility": "compact",
+  "gitlens.ai.model": "gitkraken",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "vim.useCtrlKeys": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "k"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    },
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "geminicodeassist.project": "polished-foundry-4dpsm",
+  "diffEditor.codeLens": true,
+  "explorer.confirmDelete": false,
+  "http.systemCertificatesNode": true,
+  "explorer.confirmDragAndDrop": false,
+  "gitlens.ai.gitkraken.model": "gemini:gemini-2.0-flash",
+  "bracketPairColorizer.depreciation-notice": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
