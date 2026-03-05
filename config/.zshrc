@@ -67,6 +67,7 @@ parse_dfe_key() {
 alias ag='antigravity'			  #|
 #---------------------------------#|
 alias gpl='git pull'              #|
+alias gs='git status'             #|
 alias gc='git checkout'           #|
 alias gcs='git checkout staging'  #|
 alias gcst='git checkout stable'  #|
@@ -81,5 +82,7 @@ alias gsl='git stash list'        #|
 alias pi='pnpm install'           #|
 alias ptb='pnpm tsc --build'      #|
 alias pdev='pnpm run dev'         #|
+#---------------------------------#|
+alias killport='fuser -k'         #|  
 #---------------END---------------#|
 
